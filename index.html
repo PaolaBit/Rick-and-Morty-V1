@@ -1,0 +1,103 @@
+<!-- Especifica la versión de HTML que vamos a utilizar -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick And Morty</title>
+    <link rel="icon" type="image/png" href="./images/LogoP.png">
+    <!--<link rel="icon" type="image/png" href="images/LogoP.png">-->
+    <!--<style>
+        
+    </style>-->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Long+Cang&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="main-menu">
+        <!-- Etiqueta ul ==> Nos permite crear listas no ordenadas. -->
+        <div>
+            <img src="./images/LogoP.png" width="80" height="80">
+        </div>
+        <ul class="main-menu opt-menu">
+            <!-- li ==> Elementos de la lista -->
+            <li> <a href="./index.html">Inicio</a></li>
+            <li> <a href="./aboutMe.html">Sobre mi</a> </li>
+            <li> <a target="_blank" href="./contact.html">Contáctenos</a> </li>
+        </ul>
+        <!-- ol ==> Listas ordenadas. -->
+        <!--<ol>
+            <li>Uno</li>
+            <li>Dos</li>
+            <li>Tres</li>
+        </ol>-->
+    </nav>
+
+    <!-- El div es el padre
+    Las imágenes son los hijos 
+    <div class="flex-content">
+        <img style="flex-grow: 2; align-self: stretch; " src="https://picsum.photos/id/1024/200/200" alt="">
+        <img src="https://picsum.photos/id/1025/200/200" alt="">
+        <img src="https://picsum.photos/id/1026/400/300" alt="">
+    </div>-->
+
+    <div class="container">
+        <h1>Personajes de Rick and Morty</h1>
+        <section class="main-charecters">
+            <article class="charecter">
+                <header>
+                    <h2>Rick Sanchez</h2>
+                </header>
+                <img src="./images/Rick.jpeg" alt="Rick Sanchez">
+                <div>
+                    <p> <b>Genero:</b> Máculino </p>
+                    <p> <b>Especie:</b> Humano </p>
+                </div>
+            </article>
+
+            <article class="charecter">
+                <header>
+                    <h2>Morty Smith</h2>
+                </header>
+                <img src="./images/Morty.jpeg" alt="Morty Smith">
+                <div>
+                    <p><b>Genero:</b> Másculino </p>
+                    <p><b>Especie:</b> Humano </p>
+                </div>
+            </article>
+
+            <article class="charecter">
+                <header>
+                    <h2>Arthricia</h2>
+                </header>
+                <img src="./images/Arthricia.jpeg" alt="Arthricia">
+                <div>
+                    <p><b>Genero:</b> Mujer </p>
+                    <p><b>Especie:</b> Gato </p>
+                </div>
+            </article>
+
+            <article class="charecter">
+                <header>
+                    <h2>Beth</h2>
+                </header>
+                <img src="./images/Beth.jpeg" alt="Beth">
+                <div>
+                    <p><b>Genero:</b> Mujer </p>
+                    <p><b>Especie:</b> Humano </p>
+                </div>
+            </article>
+
+        </section>
+    </div>
+
+    <footer>
+        <p> Hecho con <i class="fas fa-heart"></i> por Paola Cuadros </p>
+    </footer>
+
+</body>
+
+</html>

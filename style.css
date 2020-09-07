@@ -1,0 +1,186 @@
+/* * => Selector universal. */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*background-color: black;
+    font-size: 50px;*/
+}
+
+.titulos {
+    color: rgb(7, 3, 10);
+    background-color: red;
+}
+
+.flex-content {
+    height: 1000px;
+    background-color: red;
+    /*Permite que los elemtos hijos sean flexibles.*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-menu {
+    display: flex;
+    /* align-items=> alinea los elementos teniendo en cuenta el alto
+    justify-content => alinea los elementos teniendo en cuenta el ancho */
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.opt-menu {
+    justify-content: flex-end;
+    width: 90%;
+}
+
+.opt-menu li {
+    list-style: none;
+    width: 15%;
+}
+
+.opt-menu a:hover {
+    background-color: white;
+    color: red;
+    border: 5px white solid;
+    border-radius: 30px;
+}
+
+.border-div {
+    background-color: red;
+    font-size: 50px;
+    /* MARGENES */
+    /*margin: 5%; => Pone 5% a todos los lados de mi div */
+    /* margin-top: 10%; marging-left, marging-right, marging-bottom => permite tener margenes arriba o abajo o a los lados. */
+    margin: 5% 3% 0% 6%;
+    /*margin: 5% 3% 0% 6%; => funciona como el reloj. */
+    /* BORDERS */
+    border: 10px blue solid;
+    border-bottom: 20px blue solid;
+    border-radius: 20px;
+    /* PADDING */
+    padding: 30px;
+}
+
+.container {
+    margin: 5% 10% 3% 8%;
+    text-align: center;
+    /*font-family: 'Long Cang', cursive;*/
+    font-size: 30px;
+}
+
+.main-charecters {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.charecter {
+    width: 25%;
+    margin: 3%;
+    border: 2px #E6E6E6 solid;
+    border-right: 3px #E6E6E6 solid;
+    border-bottom: 3px #E6E6E6 solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.charecter img {
+    width: 80%;
+    border-radius: 3%;
+}
+
+.charecter div {
+    width: 90%;
+    text-align: justify;
+    padding: 3%;
+    /*font-family: 'Anton', sans-serif;*/
+}
+
+.charecter h2 {
+    font-weight: bold;
+    margin-bottom: 3%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 80px;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 2%;
+}
+
+.fa-heart {
+    color: red;
+}
+
+.opt-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.form-flex {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.input-form {
+    margin-bottom: 2%;
+}
+
+.input-form div {
+    width: 30%;
+    float: left;
+}
+
+.input-form input {
+    width: 60%;
+}
+
+.form-button {
+    text-align: center;
+}
+
+.form-button button {
+    background-color: black;
+    color: white;
+    border: 5px solid;
+    border-radius: 30px;
+    width: 15%;
+    height: 50px;
+}
+
+.form-flex input {
+    height: 30px;
+    border: 2px pink solid;
+    border-radius: 10px;
+}
+
+.options {
+    width: 40%;
+    text-align: left;
+}
+
+.opt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opt h4 {
+    text-align: center;
+}
+
+.opt input {
+    width: 10%;
+}
